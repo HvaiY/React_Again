@@ -1,6 +1,10 @@
 import React from "react";
 import ReactDOM from "react-dom";
 
+function FormatDate(props) {
+  return <p>现在时间是：{props.date.toLocaleTimeString()}</p>;
+}
+
 class Clock extends React.Component {
   constructor(props) {
     super(props);
@@ -26,10 +30,27 @@ class Clock extends React.Component {
     return (
       <div>
         <h1> hello world</h1>
-        <h2>当前时间是：{this.state.date.toLocaleTimeString()}</h2>
+        <h2>
+          <FormatDate date={this.state.date} />
+        </h2>
       </div>
     );
   }
 }
 
-export default ReactDOM.render(<Clock />, document.getElementById("root"));
+// 组件封装 流式 数据自上到下(属性传递参数)
+function App() {
+  return (
+    <div>
+      <Clock />
+
+      <Clock />
+
+      <Clock />
+
+      <Clock />
+    </div>
+  );
+}
+
+export default ReactDOM.render(<App />, document.getElementById("root"));
