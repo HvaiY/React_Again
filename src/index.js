@@ -7,6 +7,7 @@ import Element from './Study/Element';
 import Element2 from "./Study/Element.2";
 import Ele from "./Study/Component";
 import StyleTest from "./Study/JSX"; // 直接导入 那么就直接使用导出的默
+import XiaoFang from "./Study/CustomerComponent";
 
 //const rootDiv = document.getElementById('root');
 // 渲染目标  root
