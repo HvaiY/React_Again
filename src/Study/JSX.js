@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-// JSX React 对JS 的xml 扩展 不仅仅适用于React ，可以在js里面写标签 eg
+// JSX React 对JS 的xml 扩展 不仅仅适用于React ，可以在js里面写标签 eg  
 const Element=<h1>你好，世界</h1>;
 // jsx 中可以直接使用js表达式  需要{}包裹
 ReactDOM.render(
