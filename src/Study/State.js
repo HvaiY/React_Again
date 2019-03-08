@@ -42,13 +42,13 @@ class Clock extends React.Component {
 function App() {
   return (
     <div>
-      <Clock />
+      <Clock id={1} />
 
-      <Clock />
+      <Clock id={2} />
 
-      <Clock />
+      <Clock id={3}/>
 
-      <Clock />
+      <Clock id={5}/>
     </div>
   );
 }
