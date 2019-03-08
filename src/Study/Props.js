@@ -1,7 +1,7 @@
 import React from 'react';
 import ReacrDOM  from 'react-dom';
 
-// React.Component 默认属性  defaultProps 无需构造函数声明
+// React.Component 默认属性  defaultProps是 props 无需构造函数声明
 
 class MessageTitle extends React.Component{
     render(){
