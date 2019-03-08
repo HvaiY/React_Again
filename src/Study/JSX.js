@@ -28,8 +28,8 @@ const i=3;
 
   // 数组
   const arr=[
-    <p>你好，我是数组的第一个元素</p>,
-    <p style={myStyle}>我是数组的第二个元素</p>
+    <p key={'1'} >你好，我是数组的第一个元素</p>,
+    <p key={'2'} style={myStyle}>我是数组的第二个元素</p>
 
   ]
  ReactDOM.render(<h2 style={myStyle}>测试样式</h2>,document.getElementById('root'));

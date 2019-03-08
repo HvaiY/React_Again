@@ -13,7 +13,7 @@ class Mytitle extends React.Component{
 }
 
 Mytitle.propTypes={
-    title:PropTypes.number // 校验是否为数字 如果不是抛出异常到js 控制台
+    title:PropTypes.string // 校验是否为string 如果不是抛出异常到js 控制台
 };
 
 ReactDOM.render(<Mytitle title={title}/> ,document.getElementById('root'));

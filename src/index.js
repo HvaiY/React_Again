@@ -7,10 +7,11 @@ import Element from "./Study/Element";
 import Element2 from "./Study/Element.2";
 import Ele from "./Study/Component";
 import StyleTest from "./Study/JSX"; // 直接导入 那么就直接使用导出的默
-import XiaoFang from "./Study/CustomerComponent";
-import Statejs from "./Study/State";
-import MessageTitle from "./Study/Props";
-import PropTypes from "./Study/PropTypes"
+ import XiaoFang from "./Study/CustomerComponent";
+ import Statejs from "./Study/State";
+ import MessageTitle from "./Study/Props";
+ import PropTypes from "./Study/PropTypes";
+ import Event from "./Study/Event3";
 //const rootDiv = document.getElementById('root');
 // 渲染目标  root
 //ReactDOM.render(<App />, rootDiv);
