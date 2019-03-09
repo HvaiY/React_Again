@@ -7,11 +7,20 @@ import Element from "./Study/Element";
 import Element2 from "./Study/Element.2";
 import Ele from "./Study/Component";
 import StyleTest from "./Study/JSX"; // 直接导入 那么就直接使用导出的默
- import XiaoFang from "./Study/CustomerComponent";
- import Statejs from "./Study/State";
- import MessageTitle from "./Study/Props";
- import PropTypes from "./Study/PropTypes";
- import Event from "./Study/Event3";
+import XiaoFang from "./Study/CustomerComponent";
+import Statejs from "./Study/State";
+import MessageTitle from "./Study/Props";
+import PropTypes from "./Study/PropTypes";
+import Event from "./Study/Event3";
+import {
+  zc,
+  hy,
+  Controller,
+  Message,
+  NotRender
+} from "./Study/ConditionRender";
+import { Numbers } from "./Study/List";
+
 //const rootDiv = document.getElementById('root');
 // 渲染目标  root
 //ReactDOM.render(<App />, rootDiv);
@@ -19,7 +28,11 @@ import StyleTest from "./Study/JSX"; // 直接导入 那么就直接使用导出
 //ReactDOM.unmountComponentAtNode(rootDiv);
 // 直接调用方法
 //setInterval(Ele,1000);
-
+hy();
+Controller();
+Message();
+NotRender();
+Numbers();
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.
 // Learn more about service workers: http://bit.ly/CRA-PWA
