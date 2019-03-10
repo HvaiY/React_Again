@@ -20,6 +20,7 @@ import {
   NotRender
 } from "./Study/ConditionRender";
 import { Numbers, NumberUl, ComponentList } from "./Study/List";
+import { SetStates } from "./Study/Component_api";
 
 //const rootDiv = document.getElementById('root');
 // 渲染目标  root
@@ -35,6 +36,7 @@ NotRender();
 //Numbers();
 NumberUl();
 ComponentList();
+SetStates();
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.
 // Learn more about service workers: http://bit.ly/CRA-PWA
