@@ -22,7 +22,12 @@ import {
 import { Numbers, NumberUl, ComponentList } from "./Study/List";
 import { SetStates } from "./Study/Component_api";
 import { ComponentDidMount, LiftCycleFunc } from "./Study/LiftCycle";
-import { Ajaxs } from "./Study/React.Ajax";
+import { Ajaxs } from "./Study/React.Fetch";
+import {
+  Forms,
+  HelloMessageParentComponent,
+  Selects
+} from "./Study/FormAndEvent";
 
 //const rootDiv = document.getElementById('root');
 // 渲染目标  root
@@ -42,6 +47,9 @@ SetStates();
 //ComponentDidMount();
 LiftCycleFunc();
 Ajaxs();
+Forms();
+HelloMessageParentComponent();
+Selects();
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.
 // Learn more about service workers: http://bit.ly/CRA-PWA

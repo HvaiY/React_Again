@@ -53,10 +53,10 @@ class UserGist extends React.Component {
     // });
   }
 
-  //卸载React组件时，把多余请求关闭，以免影响其他框架或组件的操作
-  componentWillUnmount() {
-    //  this.serverRequest.abort(); // ajax 需要释放的
-  }
+  // //卸载React组件时，把多余请求关闭，以免影响其他框架或组件的操作
+  // componentWillUnmount() {
+  //   //  this.serverRequest.abort(); // ajax 需要释放的
+  // }
 
   render() {
     return (
