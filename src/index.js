@@ -26,7 +26,8 @@ import { Ajaxs } from "./Study/React.Fetch";
 import {
   Forms,
   HelloMessageParentComponent,
-  Selects
+  Selects,
+  Reservations
 } from "./Study/FormAndEvent";
 
 //const rootDiv = document.getElementById('root');
@@ -50,6 +51,7 @@ Ajaxs();
 Forms();
 HelloMessageParentComponent();
 Selects();
+Reservations();
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.
 // Learn more about service workers: http://bit.ly/CRA-PWA
