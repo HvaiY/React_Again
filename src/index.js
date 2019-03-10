@@ -29,6 +29,7 @@ import {
   Selects,
   Reservations
 } from "./Study/FormAndEvent";
+import { RefsTest } from "./Study/React.Refs";
 
 //const rootDiv = document.getElementById('root');
 // 渲染目标  root
@@ -52,6 +53,7 @@ Forms();
 HelloMessageParentComponent();
 Selects();
 Reservations();
+RefsTest();
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.
 // Learn more about service workers: http://bit.ly/CRA-PWA
