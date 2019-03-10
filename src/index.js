@@ -19,7 +19,7 @@ import {
   Message,
   NotRender
 } from "./Study/ConditionRender";
-import { Numbers } from "./Study/List";
+import { Numbers, NumberUl, ComponentList } from "./Study/List";
 
 //const rootDiv = document.getElementById('root');
 // 渲染目标  root
@@ -32,7 +32,9 @@ hy();
 Controller();
 Message();
 NotRender();
-Numbers();
+//Numbers();
+NumberUl();
+ComponentList();
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.
 // Learn more about service workers: http://bit.ly/CRA-PWA
