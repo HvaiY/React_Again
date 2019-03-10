@@ -19,7 +19,17 @@ import {
   Message,
   NotRender
 } from "./Study/ConditionRender";
-import { Numbers } from "./Study/List";
+import { Numbers, NumberUl, ComponentList } from "./Study/List";
+import { SetStates } from "./Study/Component_api";
+import { ComponentDidMount, LiftCycleFunc } from "./Study/LiftCycle";
+import { Ajaxs } from "./Study/React.Fetch";
+import {
+  Forms,
+  HelloMessageParentComponent,
+  Selects,
+  Reservations
+} from "./Study/FormAndEvent";
+import { RefsTest } from "./Study/React.Refs";
 
 //const rootDiv = document.getElementById('root');
 // 渲染目标  root
@@ -32,7 +42,18 @@ hy();
 Controller();
 Message();
 NotRender();
-Numbers();
+//Numbers();
+NumberUl();
+ComponentList();
+SetStates();
+//ComponentDidMount();
+LiftCycleFunc();
+Ajaxs();
+Forms();
+HelloMessageParentComponent();
+Selects();
+Reservations();
+RefsTest();
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.
 // Learn more about service workers: http://bit.ly/CRA-PWA
